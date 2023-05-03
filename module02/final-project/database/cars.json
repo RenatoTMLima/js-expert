@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1bb36246-69e5-489d-94ac-ddde1eb06438",
+    "name": "Accord",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "1e14a547-881f-400e-8fd0-d9e95cf22929",
+    "name": "Countach",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "f586bc01-5dc3-46aa-ab90-49a9cffadd57",
+    "name": "F-150",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  }
+]
