@@ -1,0 +1,37 @@
+regex101.com
+^\d{3}.\d{3}.\d{3}-\d{2}$
+
+123.123.123-14
+321.123.345-20
+200.300.500-19
+
+replace [.-] - vazio
+
+Lima, Renato
+Wendel, Erick
+Gomes, Laila
+
+regex pra dar match: ^(\w+),\s(\w+)$
+replace: { firstName: "$2", lastName: "$1" }
+
+resultado:
+{ firstName: "Renato", lastName: "Lima" }
+{ firstName: "Erick", lastName: "Wendel" }
+{ firstName: "Laila", lastName: "Gomes" }
+
+O [Erick Wendel](https://erickwendel.com) faz palestras (e videos) e você devia segui-lo lá no [Twitter](http://twitter.com/erickwendel_) ou até no [Instagram](https://instagram.com/erickwendel_)
+
+Ah e pode pesquisar no [Google](https://google.com) ou
+[Yahoo](https://yahoo.com)
+
+vai que vai!
+
+regex: \[(.*?)\]\(([http|https].*?)\)
+replace: <a href="$2">$1</a>
+
+O <a href="https://erickwendel.com">Erick Wendel</a> faz palestras (e videos) e você devia segui-lo lá no <a href="http://twitter.com/erickwendel_">Twitter</a> ou até no <a href="https://instagram.com/erickwendel_">Instagram</a>
+
+Ah e pode pesquisar no <a href="https://google.com">Google</a> ou
+<a href="https://yahoo.com">Yahoo</a>
+
+vai que vai!
